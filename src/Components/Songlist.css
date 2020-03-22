@@ -1,0 +1,22 @@
+#songlist {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: black;
+    border: var(--primary-color) solid 1px;
+}
+#songlist td {
+    color: var(--primary-color);
+    list-style-type: none;
+    cursor: grab;
+}
+#songlist td:hover {
+    color: var(--primary-color-hover);
+    list-style-type: none;
+    cursor: grab;
+}
+#songlist td:active {
+    color: var(--primary-color-hover);
+    list-style-type: none;
+    cursor: grabbing;
+}

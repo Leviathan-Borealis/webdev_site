@@ -1,0 +1,72 @@
+:root {
+  --primary-color: yellow;
+  --primary-color-hover: yellowgreen;
+  --background-color: #000;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: var(--background-color);
+}
+.body {
+  min-height: 87vh;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+a:hover {
+  color: var(--primary-color-hover);
+}
+
+p, th, td {
+  margin: 0px;
+  padding: 0px;
+  color: var(--primary-color);
+}
+h1 {
+  margin: 0px;
+  padding: 0px;
+  color: var(--primary-color);
+  font-size: 3em;
+}
+h2 {
+  margin: 0px;
+  padding: 0px;
+  color: var(--primary-color);
+  font-size: 2em;
+}
+.smallButton {
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  border-color: var(--primary-color);
+}
+.smallButton:hover {
+  color: var(--primary-color-hover);
+  background-color: var(--background-color);
+  border-color: var(--primary-color-hover);
+}
+.mediumButton {
+  font-size: 1.5em;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  border-color: var(--primary-color);
+}
+.mediumButton:hover {
+  color: var(--primary-color-hover);
+  background-color: var(--background-color);
+  border-color: var(--primary-color-hover);
+}
+.largeButton {
+  font-size: 2em;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  border-color: var(--primary-color);
+}
+.largeButton:hover {
+  color: var(--primary-color-hover);
+  background-color: var(--background-color);
+  border-color: var(--primary-color-hover);
+}

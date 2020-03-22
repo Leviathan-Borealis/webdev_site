@@ -1,0 +1,22 @@
+#playlist {
+    overflow: auto;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+#playlist h2 {
+    color: var(--primary-color);
+    display: inline-block;
+}
+svg {
+    fill: var(--primary-color);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+svg:hover {
+    fill: var(--primary-color-hover);
+}
+
+#playlist button{
+    position: relative;
+    float: right;    
+}

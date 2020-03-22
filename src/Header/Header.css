@@ -1,0 +1,31 @@
+header {
+    float: left;
+    margin-bottom: 1em;
+    width: 100%;
+    color: var(--primary-color);
+    background: #222222;
+    vertical-align: middle;
+}
+header img {
+    float: left;
+    width: 7.5em;
+    height: 3.7em;
+    background: transparent;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 3px;
+    bottom: 0px;
+    color: var(--primary-color);
+}
+header nav {
+    float: right;
+    margin-right: 2em;
+}
+header nav a {
+    margin-right: 0.3em;
+    font-size: 28px;
+}
